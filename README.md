@@ -11,65 +11,56 @@
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/88662101/230546209-e4bd8ec1-372e-4b14-8022-aedd208b0054.png)
+![image](https://user-images.githubusercontent.com/88662101/230546209-e4bd8ec1-372e-4b14-8022-aedd208b0054.png)  
 
-<br>
-데이터 전처리 - 데이터 형태 파악
-웨이퍼 맵 : 2차원 array 형태로 0,1,2로 구성
-다이사이즈, lotname – 웨이퍼 25장당 1로트
-aferindex – 웨이퍼 별 ID
-trainTestLabel – 훈련/테스트 용인지 구분
-failureType – 불량유형(주 타겟)
 
-<br>
-<br>
-<br>
-<br>
-
-![image](https://user-images.githubusercontent.com/88662101/230546607-54f0e346-3c60-4ee0-9c86-849d0f2ac407.png)
-
-<br>
-불량 유형의 시각화
+- 데이터 전처리 - 데이터 형태 파악  
+- 웨이퍼 맵 : 2차원 array 형태로 0,1,2로 구성 
+- 다이사이즈, lotname – 웨이퍼 25장당 1로트  
+- aferindex – 웨이퍼 별 ID  
+- trainTestLabel – 훈련/테스트 용인지 구분  
+- failureType – 불량유형(주 타겟)  
 
 <br>
 <br>
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/88662101/230546662-2b095698-bd47-47bc-afe3-f5549ce4744d.png)
-
-<br>
-오토 인코더 – 이미지를 더욱 선명하게 하기 위해서 만든 전처리 층/ 데이터의 품질 향상
-
-<br>
-<br>
-<br>
-<br>
-
-![image](https://user-images.githubusercontent.com/88662101/230546810-d1ca473c-0b95-45ae-9d58-e6d6e8bfc8d7.png)
-
-<br>
-Edge case들의 넷다이가 가장 높았고, 데이터 불균형으로 인해 데이터 증강으로 이를 해소
+![image](https://user-images.githubusercontent.com/88662101/230546607-54f0e346-3c60-4ee0-9c86-849d0f2ac407.png)  
+- 불량 유형의 시각화  
 
 <br>
 <br>
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/88662101/230546952-5b856980-e163-48dd-9d24-4e2ff84f3fa0.png)
-
-<br>
-2D CNN을 통해 이진분류 모델 개발
+![image](https://user-images.githubusercontent.com/88662101/230546662-2b095698-bd47-47bc-afe3-f5549ce4744d.png)  
+- 오토 인코더 : 이미지를 더욱 선명하게 하기 위해서 만든 전처리 층/ 데이터의 품질 향상
 
 <br>
 <br>
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/88662101/230547003-5f732b84-daf1-4c3b-b7d5-967729ca8a61.png)
+![image](https://user-images.githubusercontent.com/88662101/230546810-d1ca473c-0b95-45ae-9d58-e6d6e8bfc8d7.png)  
+- Edge case들의 넷다이가 가장 높았고, 데이터 불균형으로 인해 데이터 증강으로 이를 해소
 
 <br>
-BAD Class는 edge case 2가지를 의미하고, 증강 갯수에 따른 예측 정확도 93% 달성
+<br>
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/88662101/230546952-5b856980-e163-48dd-9d24-4e2ff84f3fa0.png)  
+- 2D CNN을 통해 이진분류 모델 개발  
+
+<br>
+<br>
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/88662101/230547003-5f732b84-daf1-4c3b-b7d5-967729ca8a61.png)  
+- BAD Class는 edge case 2가지를 의미  
+- 증강 갯수에 따른 예측 정확도 93% 달성
 
 
 -----
