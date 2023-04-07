@@ -7,6 +7,7 @@
 
 <br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/88662101/230546209-e4bd8ec1-372e-4b14-8022-aedd208b0054.png)
 데이터 전처리 - 데이터 형태 파악
 웨이퍼 맵 : 2차원 array 형태로 0,1,2로 구성
